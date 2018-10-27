@@ -3,8 +3,9 @@
 
 //Playing Board basic properties
 
-#define GRID_OFFSET 80
-#define GAME_GRID_BORDER 4
+#define BOARD_OFFSET 80 //Space between Window's edges and the PlayingBoard
+#define GAME_GRID_BORDER 4 //Grid block's border thickness
+#define GRID_BLOCK_SPACE -4 //Space between every grid block, set to either 0 or greater than GRID_OFFSET
 
 #include <SFML/Graphics.hpp>
 

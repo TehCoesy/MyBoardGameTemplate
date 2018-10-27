@@ -2,9 +2,10 @@
 #define APPLICATION_H
 
 //Modify main Window size
-//For now prefer Square Windows, check calculateGrid() in Game too see how the Playing Board is determined
+//For now prefer square Windows, check calculateGrid() in Game to see how the playing Board is determined
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 800
+#define BOARD_GRID 6
 
 #include <SFML/Graphics.hpp>
 #include "Game.h"
